@@ -1,0 +1,25 @@
+# Blender MTL File: 'texturing Previos model.blend'
+# Material Count: 2
+
+newmtl Rope_Material
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\Its Hritik\\Downloads\\Compressed\\FabricRope001\\FabricRope001\\REGULAR\\3K\\FabricRope001_NRM_3K.jpg
+map_Kd C:\\Users\\Its Hritik\\Downloads\\Compressed\\FabricRope001\\FabricRope001\\REGULAR\\3K\\FabricRope001_COL_3K.jpg
+refl C:\\Users\\Its Hritik\\Downloads\\Compressed\\FabricRope001\\FabricRope001\\REGULAR\\3K\\FabricRope001_GLOSS_3K.jpg
+
+newmtl wood
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.430938 0.155711 0.086144
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

@@ -178,7 +178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Experiment 7.2
+  m_text: Experiment 3.2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -331,80 +331,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 135753038}
   m_CullTransparentMesh: 0
---- !u!1 &328921364
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 328921365}
-  - component: {fileID: 328921367}
-  - component: {fileID: 328921366}
-  m_Layer: 5
-  m_Name: Thermo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &328921365
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328921364}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -116}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 496068401}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1099, y: 529}
-  m_SizeDelta: {x: 286.0974, y: 326.06885}
-  m_Pivot: {x: 1, y: 1}
---- !u!114 &328921366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328921364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 273d00e367dccfb42b3c636cbac75c78, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &328921367
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 328921364}
-  m_CullTransparentMesh: 0
 --- !u!1 &496068400
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,10 +358,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2061776477}
   - {fileID: 795318938}
   - {fileID: 1426945558}
-  - {fileID: 328921365}
   - {fileID: 999686895}
   m_Father: {fileID: 6562782056713090443}
   m_RootOrder: 5
@@ -551,7 +475,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 496068401}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -651,7 +575,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Find the density of an object heavier than water by Archimedes Principle.
+  m_text: Find force of limiting friction by rolling a roller on a horizontal surface.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -908,7 +832,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 496068401}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -1263,6 +1187,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6562782055625882450}
     m_Modifications:
+    - target: {fileID: 8127534641966011575, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8127534642012312647, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
       propertyPath: m_Color.r
@@ -1307,17 +1236,42 @@ PrefabInstance:
 
 
 
-        <size="60"><b> Archimedes Principle:</b>
 
-        Archimedes
-        principle states that when an object is immersed in a fluid it experiences
-        an upward force equal to the weight of the fluid displaced by the object.It
-        is important to note that te upward force does not depend on the weight or
-        shape of the submerged object,but depends only on the weight of the displaced
-        fluid.If the density of the object is greater than that of the fluid,the 
-        object will sink.If the  density of the object is lesser than that of the
-        fluid,the object will float. Using Archimedes principle the unknown weight
-        of an object can be found easily,'
+
+
+
+        Friction:
+
+        Friction is the force between
+        two surfaces that are sliding or trying to slide across each other. Friction
+        always works in the direction opposite to the direction in which object is
+        moving or trying to move.
+
+        
+
+        Rolling Friction:
+
+        When
+        a cylinder rolls on a surface, the force resisting it''s motion is called
+        rolling fricition.
+
+        Rolling friction is considerably less than sliding
+        friction.
+
+        
+
+        Reason for using Ball Bearings:
+
+        By
+        uing ball bearings we tend to convert the sliding friction into rolling friction.
+        This helps as rolling friction is considerably less than sliding friction.
+
+        
+
+        Some
+        ways of reducing friction:
+
+        Lubrication, use of ball bearings etc.'
       objectReference: {fileID: 0}
     - target: {fileID: 8127534642176526102, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
@@ -1442,13 +1396,49 @@ PrefabInstance:
     - target: {fileID: 8127534642361641489, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
       propertyPath: m_text
-      value: "\nStep 1:\tNote the room temperature with help of a thermometer.\nStep
-        2:\tLevel the physical balance .\nStep 3:\tMeasure the weight w1=m1g of the
-        given solid object in Air.\nStep 4:\tPlace the wooden bench across the physical
-        balance.\nStep 5:\tPlace the 3/4th beaker with water and put it on the bench.
-        \nStep 6:\tSuspend the solid with hook of the balance such that the object
-        is completey immeresd in water in the beaker and does not touch its walls
-        and bootom.\nStep 7:\tWeight it again and  record the weight as w2."
+      value: '1. <indent=1em>Weight the pan by a physical balance or electric balance</indent>
+
+        2.
+        <indent=1em>Level the horizontal wooden or glasss surface with the help of
+        a spirit level</indent>
+
+        3. <indent=1em>Oil the pulley attached
+        with the horizontal surface to reduce friction</indent>
+
+        4. <indent=1em>Tie
+        one end of the string with the hook of the roller and other end with the
+        pan by passing the string over the pulley. The string between the hook and
+        the pulley should be horizontal.</indent>
+
+        5. <indent=1em>Put a
+        small weight in the pan and observe the roller. Add more small weights gradually
+        till the roller begins to move slowly.</indent>
+
+        6. <indent=1em>Note
+        the total mass in the pan and multiply it with ''g'' to find the weight.</indent>
+
+        7.
+        <indent=1em>Repeat the experiment three times and find the average value
+        of limiting friction</indent>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8127534642398356354, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
@@ -1529,6 +1519,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -1118.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127534642789594425, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127534642875692362, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127534642901757744, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
+        type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8127534642946634845, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
@@ -1773,7 +1778,36 @@ PrefabInstance:
     - target: {fileID: 8127534643437761863, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
       propertyPath: m_text
-      value: Archimedes principle states that when an object is immersed in a liquid
+      value: 'Friction:
+
+        Friction is the force between two surfaces that
+        are sliding or trying to slide across each other. Friction always works in
+        the direction opposite to the direction in which object is moving or trying
+        to move.
+
+        
+
+        Rolling Friction:
+
+        When a cylinder
+        rolls on a surface, the force resisting it''s motion is called rolling fricition.
+
+        Rolling
+        friction is considerably less than sliding friction.
+
+        
+
+        Reason
+        for using Ball Bearings:
+
+        By uing ball bearings we tend to convert
+        the sliding friction into rolling friction. This helps as rolling friction
+        is considerably less than sliding friction.
+
+        
+
+        Some ways
+        of reducing friction include lubrication, use of ball bearings etc.'
       objectReference: {fileID: 0}
     - target: {fileID: 8127534643512480388, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
@@ -1849,6 +1883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -612
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127534643690315288, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
+        type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8127534643698903036, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
@@ -1935,6 +1974,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -290.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8127534643861878976, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8127534643917148394, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
       propertyPath: m_isRightToLeft
@@ -1943,7 +1987,7 @@ PrefabInstance:
     - target: {fileID: 8127534643917148394, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
       propertyPath: m_text
-      value: "\n<align=\"center\"><size=\"68\"><b>Archimedes Principle</b></size>\n<align=\"left\"><b>\t\t                                    
+      value: "\n<align=\"center\"><size=\"68\"><b>Friction and Rolling Friction</b></size>\n<align=\"left\"><b>\t\t                                    
         \t\t\n\t\t\t <sub>   </sub>        <sub>   </sub>   <sub>   </sub>\t\t\t
         \t<sub>   </sub>  <sub>   </sub>   <sub>    </sub></b>\n<align=\"left\">----------------------------------------------------------------------------------------------------------------------------<align=\"center\"><size=\"68\"><b>\nKnown</b></size><align=\"left\">\nDensity
         of water\t\t=\t  100  KG m<sup>-3</sup> \n----------------------------------------------------------------------------------------------------------------------------<align=\"center\"><size=\"68\"><b>Find</b></size>\n<align=\"left\">The
@@ -2059,6 +2103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -1481.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8127534644049859667, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
+        type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8127534644068661344, guid: b5c8e2303cc4c6544a69fc313d6d1cf8,
         type: 3}
@@ -2461,7 +2510,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 496068401}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -2713,80 +2762,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016991736}
-  m_CullTransparentMesh: 0
---- !u!1 &2061776476
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2061776477}
-  - component: {fileID: 2061776479}
-  - component: {fileID: 2061776478}
-  m_Layer: 5
-  m_Name: LabApparatus
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2061776477
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2061776476}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 496068401}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: -1173, y: -103.7}
-  m_SizeDelta: {x: 445, y: 419}
-  m_Pivot: {x: 0, y: 0.5}
---- !u!114 &2061776478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2061776476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 549e0e216e468204e9540dce78f04f86, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &2061776479
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2061776476}
   m_CullTransparentMesh: 0
 --- !u!1 &6562782055080758346
 GameObject:
